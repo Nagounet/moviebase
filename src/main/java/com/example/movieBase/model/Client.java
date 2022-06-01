@@ -20,7 +20,6 @@ public class Client {
     private String name;
 
     @NotNull
-    @NotBlank
     @Min(value = 3, message = "Age should not be less than 3")
     @Max(value = 150, message = "Duration should not be greater than 150")
     @Column(name = "age")
